@@ -9,13 +9,13 @@ graph_data = {
     "Villejuste": {"Saulx": 4, "Villebon": 7, "Ulis": 7},
     "Longjumeau": {"Saulx": 2, "Champlin": 3},
     "Villebon": {"Saulx": 6, "Villejuste": 7, "Champlin": 5, "Ulis": 7, "Palaiseau": 7},
-    "Champlin": {"Longjumeau": 4, "Villebon": 5, "Ulis": 7, "Chilly": 6, "Massy": 4},
+    "Champlin": {"Longjumeau": 4, "Villebon": 5, "Palaiseau": 5, "Chilly": 6, "Massy": 4},
     "Ulis": {"Villejuste": 7, "Villebon": 7, "Champlin": 7, "Orsay": 7},
     "Chilly": {"Champlin": 6, "Gif": 5, "Wissous": 6, "Bures": 5},
     "Gif": {"Chilly": 5, "Orsay": 7, "Palaiseau": 5, "Saclay": 7},
     "Orsay": {"Ulis": 7, "Gif": 7, "Palaiseau": 10, "Massy": 2},
     "Palaiseau": {"Villebon": 7, "Gif": 5, "Orsay": 10, "Massy": 7, "Vauhallan": 5, "Igny": 4},
-    "Massy": {"Champlin": 4, "Orsay": 2, "Palaiseau": 7, "Wissous": 5, "Saclay": 5, "Vauhallan": 4, "Igny": 5, "Antony": 5, "Biévres": 4},
+    "Massy": {"Champlin": 4, "Verriéres": 3, "Palaiseau": 7, "Wissous": 5, "Vauhallan": 4, "Igny": 5, "Antony": 5},
     "Wissous": {"Chilly": 6, "Bures": 5, "Massy": 5},
     "Bures": {"Chilly": 5, "Orsay": 3, "Igny": 4},
     "Saclay": {"Gif": 7, "Palaiseau": 5, "Massy": 3, "Vauhallan": 7},
@@ -100,3 +100,9 @@ print("Chemin trouvé par DFS:", dfs_path)
 print("Poids total:", dfs_weight)
 
 
+
+
+
+   
+    
+           
